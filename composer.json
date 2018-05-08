@@ -1,0 +1,17 @@
+{
+  "name": "drupal/papertrail",
+  "type": "drupal-module",
+  "description": "Papertrail integration.",
+  "keywords": [
+    "Drupal",
+    "Papertrail",
+    "Monolog",
+    "Logging"
+  ],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/benjy/papertrail",
+  "support": {
+    "issues": "https://github.com/benjy/papertrail/issues",
+    "source": "https://github.com/benjy/papertrail"
+  }
+}
