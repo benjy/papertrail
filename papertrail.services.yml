@@ -1,0 +1,4 @@
+services:
+  monolog.handler.papertrail:
+    class: Monolog\Handler\SyslogUdpHandler
+    arguments: ['%papertrail.host%', '%papertrail.port%']
