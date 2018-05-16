@@ -1,4 +1,4 @@
 services:
   monolog.handler.papertrail:
-    class: Monolog\Handler\SyslogUdpHandler
-    arguments: ['%papertrail.host%', '%papertrail.port%']
+    class: Monolog\Handler\SocketHandler
+    arguments: ['%papertrail.connection_string%']
